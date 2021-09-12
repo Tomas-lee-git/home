@@ -1,6 +1,6 @@
 <template>
   <div class="complete">
-    <h3>Complete</h3>
+    <h3>已完成事项</h3>
     <div class="wrap">
       <List
         kind="complete"
