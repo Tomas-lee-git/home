@@ -1,7 +1,7 @@
 <template>
   <div class="todo">
     <h1>To Do</h1>
-    <p>苟有恒,何必三更起五更眠；最无益,莫过一日暴十日寒</p>
+    <p>苟有恒，何必三更起五更眠；最无益，莫过一日暴十日寒</p>
     <!-- <CheckRole :changeRoles="handleChangeRoles"></CheckRole> -->
     <div class="wrap">
       <el-row :gutter="20">
