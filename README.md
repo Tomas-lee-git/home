@@ -20,7 +20,7 @@ yarn build
 yarn lint
 ```
 
-### do some interesting things
+### do some interesting things for feature
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
