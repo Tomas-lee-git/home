@@ -1,13 +1,14 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h1>{{ time }}</h1>
+    <h3>毛喵喵大王和她忠诚的守护者</h3>
+    <p>{{ time }}</p>
+    <el-link type="primary" @click="handleClick">To Do List</el-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Welcome",
   props: {
     msg: String,
   },
@@ -28,6 +29,9 @@ export default {
     refresh() {
       this.time = this.getTime();
     },
+    handleClick() {
+      this.$router.push("/todo");
+    },
   },
 };
 </script>
@@ -37,15 +41,9 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
 a {
-  color: #42b983;
+  font-size: 1em;
+  text-decoration: none;
+  color: #337ec3;
 }
 </style>
